@@ -74,6 +74,12 @@ button {
 .slide-btn {
     padding: 16px 60px !important;
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px !important;
+    
+    @media #{$mobile} {
+        padding: 10px 40px !important;
+        font-size: 12px !important;
+    }
 }
 
 .button-block {
